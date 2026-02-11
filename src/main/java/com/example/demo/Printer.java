@@ -1,5 +1,5 @@
 package com.example.demo;
 
 public interface Printer {
-    void print(String meessage);
+    void print(String message);
 }

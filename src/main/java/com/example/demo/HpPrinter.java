@@ -11,8 +11,8 @@ public class HpPrinter implements Printer {
     private int count;
 
     @Override
-    public void print(String meessage) {
-        System.out.println(name +  " 印表機 : " + meessage);
+    public void print(String message) {
+        System.out.println(name +  " 印表機 : " + message);
         System.out.println("剩餘使用次數 : " + --count);
     }
 }
