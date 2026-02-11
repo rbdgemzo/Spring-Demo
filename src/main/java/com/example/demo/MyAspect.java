@@ -9,8 +9,8 @@ import java.util.Date;
 @Aspect
 @Component
 public class MyAspect {
-    Date start;
-    Date end;
+    private Date start;
+    private Date end;
 
     @Before("execution(* com.example.demo..*.print(..))")
     public void before() {
